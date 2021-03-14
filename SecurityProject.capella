@@ -55,10 +55,65 @@
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="3b5903dc-c7a6-44df-8afe-f6ebb4b15415"
           name="Operational Entities">
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="301faac2-77bf-44cd-aaef-c65a4acf6fee"
-            name="OA 1" abstractType="#8b45d785-361d-49ff-90d2-62d40a6377ba"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8b45d785-361d-49ff-90d2-62d40a6377ba"
-            name="OA 1" actor="true" human="true"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8052b470-4d14-4812-9426-8a1df7f802a3"
+            name="Пользователь" abstractType="#92ca8f3a-8446-4f5d-8c94-faff525139e2"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="40d6f6db-d193-4529-82a0-e5abcaace989"
+            name="Аппаратно-программная система" abstractType="#7bb3107a-23f0-4599-8a6c-4fbdccb70df2"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="eaec1bcb-d505-4e7e-a801-c2d78ef2a3a8"
+            name="Охранное устройство" abstractType="#548c4aa4-a82b-47d4-8a0e-1c89d2f83a9a"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fcc95b56-b0fd-47da-9c60-1f922cc7fc49"
+            name="Злоумышленник" abstractType="#63aac7a6-848a-4c59-8278-e8f6bc07169d"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="92ca8f3a-8446-4f5d-8c94-faff525139e2"
+            name="Пользователь">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9c80dfac-d2e4-4d23-94ea-9e12b122a742"
+              name="Физическое лицо" abstractType="#ca496cc4-0f7b-4e15-882f-98c6f87c87b1"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="1a960f09-a441-494b-b290-14bcca1fcdbc"
+              name="Спец. служба" abstractType="#946922c4-9541-4828-b952-a60f5eed9b46"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ca496cc4-0f7b-4e15-882f-98c6f87c87b1"
+              name="Физическое лицо" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="946922c4-9541-4828-b952-a60f5eed9b46"
+              name="Спец. служба" actor="true" human="true"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="7bb3107a-23f0-4599-8a6c-4fbdccb70df2"
+            name="Аппаратно-программная система">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f0930559-2043-4457-8886-bc0d8783eebb"
+              name="Мобильное приложение" abstractType="#8821072f-863d-47ee-a965-0ee9a4d7236c"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c9abf091-62a7-4381-9963-9023bed99ceb"
+              name="Back-end" abstractType="#33c81469-cbc9-4046-aa61-0560ccd53c4d"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a517a399-74f9-4808-8397-3d63827affb0"
+              name="Управляющий контроллер" abstractType="#dc7d9ffc-1ba0-423e-80fa-fb32e8e919db"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8821072f-863d-47ee-a965-0ee9a4d7236c"
+              name="Мобильное приложение"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="33c81469-cbc9-4046-aa61-0560ccd53c4d"
+              name="Back-end"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="dc7d9ffc-1ba0-423e-80fa-fb32e8e919db"
+              name="Управляющий контроллер"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="548c4aa4-a82b-47d4-8a0e-1c89d2f83a9a"
+            name="Охранное устройство">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ff2ef1da-a6c6-4ccb-8e66-1104a469d9bd"
+              name="Шлагбаум" abstractType="#42ca145c-80a1-4731-8f8b-e95ccd872f82"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bf76884f-ec79-48ff-a6a8-8328ce008fcf"
+              name="Камеры видео наблюдения" abstractType="#30fc343b-4a50-40eb-9470-8bcb35d2beca"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="4a743549-2dc9-46af-8ac3-7254548b5cff"
+              name="Сигнализация" abstractType="#81471957-f2e4-4cb6-a0dc-a17e165cb741"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7c13a56a-961e-4f60-8248-a397797d71ce"
+              name="Датчики" abstractType="#47dd2439-3dba-44cd-b551-06fc86fd0918"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ebe41b8d-81ce-4df2-9173-d9ab52bb97c7"
+              name="Электро-замки" abstractType="#ed9ab324-2a20-4b7c-9d2b-17094f015a24"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="42ca145c-80a1-4731-8f8b-e95ccd872f82"
+              name="Шлагбаум"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="30fc343b-4a50-40eb-9470-8bcb35d2beca"
+              name="Камеры видео наблюдения"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="81471957-f2e4-4cb6-a0dc-a17e165cb741"
+              name="Сигнализация"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="47dd2439-3dba-44cd-b551-06fc86fd0918"
+              name="Датчики"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ed9ab324-2a20-4b7c-9d2b-17094f015a24"
+              name="Электро-замки"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="63aac7a6-848a-4c59-8278-e8f6bc07169d"
+            name="Злоумышленник" actor="true" human="true"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
