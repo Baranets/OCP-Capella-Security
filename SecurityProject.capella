@@ -45,6 +45,141 @@
           id="e8c5ba9b-adb3-4f34-940d-a63a2f4e11be" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="3204aa18-8053-449e-99a5-4b071e2993d5" name="Root Operational Activity">
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="2a4750a2-6667-4d03-950e-e2bf1d2740e0" name="Процесс попытки взлома">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="0d9fffc5-f828-4f46-b90c-7664b2ff584a" involved="#dff4fe47-b570-4331-9f95-da459a4a6c95"
+                source="#64fb0583-d625-469b-b700-90a8855d7946" target="#c0d7d7c6-e343-408b-beb1-f50b2d8df113"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="c0d7d7c6-e343-408b-beb1-f50b2d8df113" involved="#adab062f-ec6f-48ec-ba56-129d11320fae"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="64fb0583-d625-469b-b700-90a8855d7946" involved="#f167b622-e0e1-4bb2-8a40-7e4ea5692e1f"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="30bdef7d-e643-4274-a618-d748c3757a52" involved="#6ae97682-bc56-4ee5-b880-4d8e7799f0ac"
+                source="#c0d7d7c6-e343-408b-beb1-f50b2d8df113" target="#c89f2979-c978-4164-8687-ff475df0d831"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="c89f2979-c978-4164-8687-ff475df0d831" involved="#5e5f99a7-1b26-4ba0-825f-13f34a6fa552"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="dfd1805b-ee79-46e7-8420-4755b2520775" involved="#d3c82233-598e-406f-877c-c9941b8b2811"
+                source="#c89f2979-c978-4164-8687-ff475df0d831" target="#e5f8af8b-0a01-480b-88de-937a5b0df66d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="e5f8af8b-0a01-480b-88de-937a5b0df66d" involved="#33e722b3-d8c7-42bb-9707-ccfec5d39c58"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="fea5c974-2b8a-47c5-ad6a-bb6bd6b33695" name="Процесс определения номера ТС">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a904fa69-b0d0-4885-a0ae-62f2f2a573e9" involved="#c158fdd9-7e67-401d-9835-bbe59aa1ce7d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="d8026ab5-f533-4004-a2b1-9e49fe3b40d3" involved="#65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="083f4778-b0d2-49fc-89b3-b84fc4411e8d" involved="#02af4147-55a2-4052-a203-87e9e4d075fc"
+                source="#d8026ab5-f533-4004-a2b1-9e49fe3b40d3" target="#a904fa69-b0d0-4885-a0ae-62f2f2a573e9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="12c8cdfa-1b0a-4639-98eb-20efe64486fa" involved="#25087045-b2ae-49ee-8309-82e4c7c37923"
+                source="#0dcc925e-71f0-4c03-8c9b-6f7f4236954e" target="#d8026ab5-f533-4004-a2b1-9e49fe3b40d3"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="0dcc925e-71f0-4c03-8c9b-6f7f4236954e" involved="#d998fd24-a0b4-4719-a184-241b1f4ff9e6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="99455ada-51de-47b8-b7bc-cfa174e7ba02" involved="#5c8ebb6a-6b01-4092-a15a-6d0e36e729ce"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="cc0b1c9f-71db-4fe4-b14a-f96dfe7f3d01" involved="#50f36975-3d0c-436a-8341-1984e54550af"
+                source="#a904fa69-b0d0-4885-a0ae-62f2f2a573e9" target="#99455ada-51de-47b8-b7bc-cfa174e7ba02"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="c9f3565c-88b5-465f-9e20-bf7bee5be22c" name="Процесс трансляции видеозаписи">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="90e1d138-9301-4a14-9d70-bc8bcca891ed" involved="#d998fd24-a0b4-4719-a184-241b1f4ff9e6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="f003a6cf-63c4-4324-b18a-63d9564b86f8" involved="#25087045-b2ae-49ee-8309-82e4c7c37923"
+                source="#90e1d138-9301-4a14-9d70-bc8bcca891ed" target="#55ac2199-e2fd-477c-a13e-38f5ab7d1f09"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="55ac2199-e2fd-477c-a13e-38f5ab7d1f09" involved="#65b04769-c2f0-4d50-bc3c-8f76bf3bf8ec"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d2cb75f5-4e00-4b60-935f-edce16fa4d1e" involved="#02af4147-55a2-4052-a203-87e9e4d075fc"
+                source="#55ac2199-e2fd-477c-a13e-38f5ab7d1f09" target="#f7b97548-9367-4ffb-9acd-7f01d3811e65"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f7b97548-9367-4ffb-9acd-7f01d3811e65" involved="#c158fdd9-7e67-401d-9835-bbe59aa1ce7d"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="98e18706-3092-4eb1-aeab-7330a6a985b1" involved="#47a2fcec-5f4a-4729-91a3-f0863a2106f8"
+                source="#f7b97548-9367-4ffb-9acd-7f01d3811e65" target="#afbe97ab-7f97-4a9d-837c-e12a0cec85e6"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="afbe97ab-7f97-4a9d-837c-e12a0cec85e6" involved="#ba19d2fe-e80d-4d74-b1f4-76730d741cb9"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="ad0e5b93-549b-4fac-9a45-e18a19d9b162" name="Процесс оплаты квитанции">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d19d55a9-e6fa-4f1f-8590-9cf1ff5c0fcd" involved="#9d1f11d2-9be9-4c8f-80a7-15922e461906"
+                source="#c619d835-6987-4a58-a9f7-5ead60c86ad3" target="#655100e0-7a26-4b4c-a067-dc012fc7ff63"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="655100e0-7a26-4b4c-a067-dc012fc7ff63" involved="#a5ab7a2a-a69d-4557-8f5e-70450abcfb94"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="c619d835-6987-4a58-a9f7-5ead60c86ad3" involved="#bf08436b-4ccb-4d5a-9489-6db79c31ea06"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="eef717d2-7818-4768-be93-b903c537dbda" involved="#dafd7e70-8e06-4272-bba0-704f7fc15a07"
+                source="#655100e0-7a26-4b4c-a067-dc012fc7ff63" target="#f0110a69-3e1c-4856-9622-7d882d265d8e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="f0110a69-3e1c-4856-9622-7d882d265d8e" involved="#bdd1888c-4bb1-4f06-83f4-515bfdf2e5f0"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="d32b38eb-dd89-4a5b-a920-e38f03f42f53" name="Процесс обновления списка гостей">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="9f8f8926-c074-4ad0-8258-1eee2954183d" involved="#8c360777-cfb0-4e61-9f7d-d44efb453532"
+                source="#716c2da8-211c-46ca-b206-9393d510e4b5" target="#8f5a1726-b67b-47cf-b815-aecb9c2d4728"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="8f5a1726-b67b-47cf-b815-aecb9c2d4728" involved="#0bf6c0b8-6a41-457e-8dca-e24f0bd24891"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="716c2da8-211c-46ca-b206-9393d510e4b5" involved="#e8dfaeab-09ed-4b98-bc4c-dd1a4a56d76c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="ca1f0f81-2e6d-4902-8c4d-c68c3b020d88" involved="#27d3310c-60c9-414c-850d-1af79dad92e2"
+                source="#716c2da8-211c-46ca-b206-9393d510e4b5" target="#79af3c2f-5135-4a41-952d-64c76dc7686e"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="79af3c2f-5135-4a41-952d-64c76dc7686e" involved="#ea052a71-5a4d-471a-85e6-b510c46edcdb"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="526f4ada-bdef-4fa2-bf98-c470d88145e9" name="Процесс закрытия объекта">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="8b1020c1-431d-42c3-9e33-48758c05ca31" involved="#856d8229-76c1-4d68-94c2-1ac4f37d1c00"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="6c3b040a-149a-45fd-ae13-d846e3734d33" involved="#c2cf975b-2630-4c3e-b5cb-31eea22d82e2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="cf1de383-6f3d-4be1-9539-7b0a07e814bb" involved="#ba0a57b2-9bdc-416f-94a8-a75cc2eca6b7"
+                source="#8b1020c1-431d-42c3-9e33-48758c05ca31" target="#6c3b040a-149a-45fd-ae13-d846e3734d33"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="4f786839-5914-4a93-ac02-77ccabc891bd" name="Процесс оповещения о вторжении">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="4998e914-fbb9-4673-8270-9d32b8883719" involved="#22b2ac21-e7e3-4a09-9811-8a424585f856"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a83f8125-4bdb-4677-b8b6-e658ff3d935c" involved="#8f895982-fd2b-4efc-b89c-0d74a90ce211"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="61cd1708-32dd-42e1-819a-17c68f088d92" involved="#0848af0c-d9ab-43fc-baaa-d4db7f688133"
+                source="#4998e914-fbb9-4673-8270-9d32b8883719" target="#a83f8125-4bdb-4677-b8b6-e658ff3d935c"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="b09e0aa2-5d1b-4cc8-823c-a26140bd8339" name="Процесс создания гостевого пропуска">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="b4db2a0a-d324-44ae-9090-2dea75ca41e9" involved="#62423d75-995e-4716-a538-a3e982013484"
+                source="#e42493be-72a5-4c88-8ce7-13aa5d01ddac" target="#3669dc76-6ce6-474a-81d2-858a9b7cfe39"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="3669dc76-6ce6-474a-81d2-858a9b7cfe39" involved="#73da27f0-3c68-453e-816c-3391b583e0a1"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="e42493be-72a5-4c88-8ce7-13aa5d01ddac" involved="#bf08436b-4ccb-4d5a-9489-6db79c31ea06"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="6ab324a3-4179-4791-9d3c-eff1cf025c07" involved="#a4f39771-3069-4ace-a71d-c1e9e7b24c00"
+                source="#3669dc76-6ce6-474a-81d2-858a9b7cfe39" target="#ccd3b932-1a98-4074-922c-acb72473171c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="ccd3b932-1a98-4074-922c-acb72473171c" involved="#16eb2a45-56ab-416d-8b66-3b883692ecba"/>
+          </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.oa:OperationalProcess"
+              id="e552fbc3-cab1-42db-944e-38ecec04503a" name="Процесс оповещения о задолжности (поступила квитанция)">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="51fbec89-5667-4ff2-b493-43cd2ba5a6e6" involved="#1e0b5596-729d-4078-8c92-04fa34a2aafb"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="3801915e-592c-40aa-9418-2166cf058719" involved="#7f7851be-8d11-4d6e-9212-5930d7fce2b1"
+                source="#51fbec89-5667-4ff2-b493-43cd2ba5a6e6" target="#280b7901-2ff8-4736-9173-9a6bd809853c"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="280b7901-2ff8-4736-9173-9a6bd809853c" involved="#0bf6c0b8-6a41-457e-8dca-e24f0bd24891"/>
+          </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="bf08436b-4ccb-4d5a-9489-6db79c31ea06" name="Открыть приложение и экран с функциональностью"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
