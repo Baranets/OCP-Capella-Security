@@ -2497,55 +2497,9 @@
                 sourceElement="#96057f80-7b42-43cb-b477-196490dea447"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905" name="Отображение закешированных данных">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="6826a2ce-e6d8-496b-94d6-fdd47de2abff" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="7548b3b1-3c66-4877-9677-865f974def6a" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="f6df0969-9066-4ce5-950d-ecb9a43ccbea" name="Инициация загрузки актуальных данных">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="4b38ef5a-1d7a-40c3-92f7-5aec62354712" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="22d2753d-cd22-4557-b709-bd9f16bd114f" name="FOP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="9e6e92df-9335-4023-ad04-1b44913997f8" name="FOP 2"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="40131143-0f6a-40bd-95e8-f80bd0f790cb" name="Загрузка на устройство актуальных данных">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="ff111645-f636-4bf0-96a2-9283a84acb66" name="FIP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="3be0a7fb-c34d-464c-a128-9c6b69fc59d9" name="Кеширование данных">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="cde2ea1e-fee2-4f96-98f4-cb2025c1aa89" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="a9d4b8eb-1735-4fe1-8992-474c63469be2" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="7348e80f-b806-4b24-87b4-3df23f8e150b" name="Отображение актуальных данных">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="a552c4de-5c65-45a2-b63b-826195754893" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="5351914b-b01b-4be6-b9e4-a4cb521780a1" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="9b0bbf9f-41fc-410e-bb62-ea33213b2b72" name="Определение объекта для открытия">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="d8c5c5fe-8844-464a-864d-8e2384a5642d" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="2dde6894-63e3-409d-8598-f5f85839df93" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="31c27a4f-2e65-48bf-9d94-6b8e88c0dac9" name="Инициация открытия объекта">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="4f4aaea1-906e-4e63-8652-048fd28d63f5" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="d75ebfc6-ebdd-4a3a-9c2b-c05f0d2690b3" name="FOP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="93073e05-a3c2-4791-a15d-0862a40413f7" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="71f9dbc6-0b13-480a-839e-254b66d6ac6b" name="Открытие объекта">
@@ -2578,46 +2532,101 @@
                 id="b0eba4d2-d903-4b33-914d-262ae72e6414" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="c55effe8-0f32-49e8-a508-249cf44dc232" name="Определить наличие ТС">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="c8fdeb93-7926-46e9-91f7-a2c00a14ac3f" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="898c2f98-4af6-4ee6-81ca-1df47ad3e38f" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="0c93d7db-c747-4f61-93b8-5f3bde07a448" name="Инициация определения номера ТС">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="11b7f7aa-7ac7-49d3-903c-cae6dfa1d2cb" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="cde2cf6c-04cf-4431-a36a-7bcd9ccfe92a" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="9b3b6d8d-58cd-403d-af7e-103d7e128399" name="ТС определено и идентифицировано">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="6af17303-74d1-45ae-8055-60c14780b72e" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="4fe7071b-8941-4922-b628-db83f6dd0eb0" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="816ebe5a-522d-413a-a717-7b7694926732" name="Сохранить данные гостя">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="3593a8b6-a2cb-4453-878d-4292be2e1f03" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="e9501799-b730-42b3-aedb-e4059f238997" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="0c441d1c-2ee6-48b6-85fc-b555cd4a0804" name="Отправить заявку на создание Гостя">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="e06d2e80-7839-47b1-96ea-4a70c1a78ac4" name="FIP 1"/>
-            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                id="107316df-2d6b-4267-80a6-d95f381b9f19" name="FOP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="bab34215-b446-4531-9448-7be525025c82" name="Создать запись о Госте">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="92212457-59f1-4865-8b7f-13f414fa0d7a" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="05373602-ae3e-4b79-99ee-ad04e6429175" name="FOP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="31eb9e40-6560-4838-9a8e-ffcfa0479175" name="Отображение">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="f57d6c43-d5c5-4f17-9ee2-21d3e1ba4905" name="Отображение закешированных данных">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="6826a2ce-e6d8-496b-94d6-fdd47de2abff" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="7548b3b1-3c66-4877-9677-865f974def6a" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="7348e80f-b806-4b24-87b4-3df23f8e150b" name="Отображение актуальных данных">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="a552c4de-5c65-45a2-b63b-826195754893" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="5351914b-b01b-4be6-b9e4-a4cb521780a1" name="FOP 1"/>
+            </ownedFunctions>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="42820af2-c3f0-482b-87f7-4ef77f6ad8a8" name="Генерация запроса">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="f6df0969-9066-4ce5-950d-ecb9a43ccbea" name="Инициация загрузки актуальных данных">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="4b38ef5a-1d7a-40c3-92f7-5aec62354712" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="22d2753d-cd22-4557-b709-bd9f16bd114f" name="FOP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="9e6e92df-9335-4023-ad04-1b44913997f8" name="FOP 2"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="0c93d7db-c747-4f61-93b8-5f3bde07a448" name="Инициация определения номера ТС">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="11b7f7aa-7ac7-49d3-903c-cae6dfa1d2cb" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="cde2cf6c-04cf-4431-a36a-7bcd9ccfe92a" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="31c27a4f-2e65-48bf-9d94-6b8e88c0dac9" name="Инициация открытия объекта">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="4f4aaea1-906e-4e63-8652-048fd28d63f5" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="d75ebfc6-ebdd-4a3a-9c2b-c05f0d2690b3" name="FOP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="93073e05-a3c2-4791-a15d-0862a40413f7" name="FOP 2"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="0c441d1c-2ee6-48b6-85fc-b555cd4a0804" name="Отправить заявку на создание Гостя">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="e06d2e80-7839-47b1-96ea-4a70c1a78ac4" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="107316df-2d6b-4267-80a6-d95f381b9f19" name="FOP 1"/>
+            </ownedFunctions>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="c89d26df-558b-40f0-a626-ce596eec876e" name="Обработка данных">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="816ebe5a-522d-413a-a717-7b7694926732" name="Сохранить данные гостя">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="3593a8b6-a2cb-4453-878d-4292be2e1f03" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="e9501799-b730-42b3-aedb-e4059f238997" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="c55effe8-0f32-49e8-a508-249cf44dc232" name="Определить наличие ТС">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="c8fdeb93-7926-46e9-91f7-a2c00a14ac3f" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="898c2f98-4af6-4ee6-81ca-1df47ad3e38f" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="3be0a7fb-c34d-464c-a128-9c6b69fc59d9" name="Кеширование данных">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="cde2ea1e-fee2-4f96-98f4-cb2025c1aa89" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="a9d4b8eb-1735-4fe1-8992-474c63469be2" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="9b0bbf9f-41fc-410e-bb62-ea33213b2b72" name="Определение объекта для открытия">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="d8c5c5fe-8844-464a-864d-8e2384a5642d" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="2dde6894-63e3-409d-8598-f5f85839df93" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="9b3b6d8d-58cd-403d-af7e-103d7e128399" name="ТС определено и идентифицировано">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="6af17303-74d1-45ae-8055-60c14780b72e" name="FIP 1"/>
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="4fe7071b-8941-4922-b628-db83f6dd0eb0" name="FOP 1"/>
+            </ownedFunctions>
           </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="354db253-c41d-439e-b8c2-54d5ce06f90e" targetElement="#3204aa18-8053-449e-99a5-4b071e2993d5"
